@@ -23,6 +23,11 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('../pages/admin/dashboard/Dashboard.vue'),
       },
       {
+        name: 'scheduling',
+        path: 'scheduling',
+        component: () => import('../pages/admin/scheduling/new.vue'),
+      },
+      {
         name: 'calendar',
         path: 'calendar',
         component: () => import('../pages/admin/calendar/Calendar.vue'),
